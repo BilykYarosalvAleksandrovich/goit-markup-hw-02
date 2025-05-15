@@ -1,16 +1,24 @@
 body {
   font-family: 'roboto', sans-serif;
 }
+
 ul,
 ol {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
 address {
   font-style: normal;
 }
+
+button {
+  cursor: pointer;
+}
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -19,8 +27,8 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo-studio {
-  font-family: 'Raleway', sans-serif;
   color: #2e2f42;
 }
 
@@ -46,11 +54,12 @@ address {
 
 .solution-subtitle {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
+
 .solution-button {
   font-weight: 500;
   font-size: 16px;
@@ -62,10 +71,13 @@ address {
 
 .menu {
 }
-.menu-link {
+
+.menu-list {
 }
+
 .menu-item {
 }
+
 .menu-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -73,6 +85,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .menu-text {
   font-size: 16px;
   line-height: 1.5;
@@ -83,6 +96,7 @@ address {
 .team {
   background-color: #f4f4fd;
 }
+
 .team-subtitle {
   font-size: 36px;
   line-height: 1.11111;
@@ -90,12 +104,16 @@ address {
   text-align: center;
   color: #2e2f42;
 }
-.team-link {
+
+.team-list {
 }
+
 .team-item {
 }
+
 .team-image {
 }
+
 .team-content {
   font-weight: 500;
   font-size: 20px;
@@ -104,6 +122,7 @@ address {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -114,6 +133,7 @@ address {
 
 .portfolio {
 }
+
 .portfolio-subtitle {
   font-size: 36px;
   line-height: 1.11;
@@ -121,12 +141,16 @@ address {
   text-align: center;
   color: #2e2f42;
 }
-.portfolio-link {
+
+.portfolio-list {
 }
+
 .portfolio-item {
 }
+
 .portfolio-image {
 }
+
 .portfolio-content {
   font-weight: 500;
   font-size: 20px;
@@ -134,12 +158,14 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .footer {
   background-color: #2e2f42;
 }
@@ -152,9 +178,11 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .footer-logo-studio {
   color: #f4f4fd;
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
