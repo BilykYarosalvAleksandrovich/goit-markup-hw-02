@@ -64,12 +64,20 @@ button {
   color: #2e2f42;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
 }
 
 .solution {
@@ -92,6 +100,11 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+}
+
+.solution-button:hover,
+.solution-button:focus {
+  background-color: #404bbf;
 }
 
 .menu {
